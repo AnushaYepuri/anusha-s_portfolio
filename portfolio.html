@@ -1,194 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Anusha Portfolio</title>
-</head>
-<body>
- <header>
-        <h1>Anusha</h1>
-        <p>Java Backend Developer</p>
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Anusha Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-         <nav>
-            <a href="#about">About</a> 
-            <a href="#skills">Skills</a> 
-            <a href="#projects">Projects</a> 
+
+</head>
+
+<body>
+    <header>
+        <h1>Anusha Yepuri
+        </h1><br>
+        <p id="role">Java Backend Developer</p>
+
+
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#resume">Resume</a>
             <a href="#contact">Contact</a>
         </nav>
-</header>
+    </header>
 
-<hr>
+
     <!-- //about -->
     <section id="about">
-    <h2>About Me</h2>
 
-    <p>
-        I am a Java Backend Developer with hands-on experience in building REST APIs 
-        using Spring Boot and working with relational databases like MySQL. 
-    </p>
+        <h2>About Me</h2>
 
-    <p>
-        I have developed projects such as an Employee Leave Management System and 
-        an E-commerce backend, where I handled core functionalities like API design, 
-        business logic implementation, and database integration.
-    </p>
+        <p>
+            I am a Java Backend Developer with 1.6+ years of experience building scalable backend applications using
+            Spring Boot and MySQL.
 
-    <p>
-        I focus on writing clean, maintainable code and understanding how systems 
-        work end-to-end rather than just implementing features.
-    </p>
+            I have developed projects such as an Employee Leave Management System and
+            an E-commerce backend, where I handled core functionalities like API design,
+            business logic implementation, and database integration.
+        </p>
 
-    <p>
-        Currently, I am improving my problem-solving skills and deepening my knowledge 
-        in backend development to build scalable and efficient applications.
-    </p>
+        <ul>
+            <li>Developed REST APIs for real-world applications like Leave Management and E-commerce systems</li>
+            <li>Strong understanding of API design, business logic, and database integration</li>
+            <li>Experience working with Spring Boot, JPA, and relational databases</li>
+            <li>Focused on clean code, performance, and system scalability</li>
+        </ul>
 
-</section>
+        <p>
+            Currently improving problem-solving skills and working towards becoming a strong backend engineer.
+        </p>
 
-    <hr>
 
-   <!-- #skills -->
-    <section id="skills">
-        <h2>Skills</h2>
-        <h3>Java Core</h3>
-<ul>
-    <li>Java Fundamentals</li>
-    <li>OOP Concepts</li>
-    <li>Encapsulation</li>
-    <li>Inheritance</li>
-    <li>Polymorphism</li>
-    <li>Abstraction</li>
-    <li>Collections Framework</li>
-    <li>Exception Handling</li>
-    <li>Multithreading (Basics)</li>
-    <li>Java 8 Features (Streams, Lambda)</li>
-</ul>
-<h3>Spring & Backend</h3>
-<ul>
-    <li>Spring Framework</li>
-    <li>Spring Boot</li>
-    <li>Spring MVC</li>
-    <li>REST API Development</li>
-    <li>Spring Data JPA</li>
-    <li>Dependency Injection</li>
-    <li>Hibernate ORM</li>
-    <li>Bean Lifecycle</li>
-    <li>Validation (Hibernate Validator)</li>
-    <li>API Exception Handling</li>
-</ul>
-<h3>Database</h3>
-<ul>
-    <li>MySQL</li>
-    <li>SQL Queries</li>
-    <li>Joins (Inner, Left, Right)</li>
-    <li>CRUD Operations</li>
-    <li>Indexing Basics</li>
-    <li>Database Design</li>
-    <li>Normalization</li>
-    <li>Transactions</li>
-</ul>
-<h3>Web Technologies</h3>
-<ul>
-    <li>HTML</li>
-    <li>Basic CSS (Understanding)</li>
-    <li>HTTP Protocol</li>
-    <li>Client-Server Architecture</li>
-    <li>JSON</li>
-</ul>
-<h3>Advanced / Bonus Skills</h3>
-<ul>
-    <li>Microservices Architecture</li>
-    <li>Docker (Basics)</li>
-    <li>AWS (Basics)</li>
-    <li>REST API Design Principles</li>
-    <li>Authentication & Authorization (JWT)</li>
-    <li>Logging (Log4j / SLF4J)</li>
-    <li>Unit Testing (JUnit)</li>
-    <li>API Testing</li>
-    <li>Performance Optimization Basics</li>
-    <li>Debugging Skills</li>
-</ul>
-<section id="tools">
-    <h3>Tools & Technologies</h3>
-
-    <ul>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>Maven</li>
-        <li>Gradle</li>
-        <li>Postman</li>
-        <li>Docker (Basics)</li>
-        <li>IntelliJ IDEA</li>
-        <li>Eclipse IDE</li>
-        <li>VS Code</li>
-        <li>MySQL Workbench</li>
-    </ul>
-
-</section>
-        
     </section>
 
-    <hr>
+
+
+    <!-- #skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+
+            <div class="skill-block">
+                <h3>Java Core</h3>
+                <ul>
+                    <li>Java Fundamentals</li>
+                    <li>OOP Concepts</li>
+                    <li>Encapsulation</li>
+                    <li>Inheritance</li>
+                    <li>Polymorphism</li>
+                    <li>Abstraction</li>
+                    <li>Collections Framework</li>
+                    <li>Exception Handling</li>
+                    <li>Multithreading (Basics)</li>
+                    <li>Java 8 Features (Streams, Lambda)</li>
+                </ul>
+            </div>
+            <div class="skill-block">
+                <h3>Spring & Backend</h3>
+                <ul>
+                    <li>Spring Framework</li>
+                    <li>Spring Boot</li>
+                    <li>Spring MVC</li>
+                    <li>REST API Development</li>
+                    <li>Spring Data JPA</li>
+                    <li>Dependency Injection</li>
+                    <li>Hibernate ORM</li>
+                    <li>Bean Lifecycle</li>
+                    <li>Validation (Hibernate Validator)</li>
+                    <li>API Exception Handling</li>
+                </ul>
+            </div>
+            <div class="skill-block">
+                <h3>Database</h3>
+                <ul>
+                    <li>MySQL</li>
+                    <li>SQL Queries</li>
+                    <li>Joins (Inner, Left, Right)</li>
+                    <li>CRUD Operations</li>
+                    <li>Indexing Basics</li>
+                    <li>Database Design</li>
+                    <li>Normalization</li>
+                    <li>Transactions</li>
+                </ul>
+            </div>
+            <div class="skill-block">
+                <h3>Web Technologies</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>Basic CSS (Understanding)</li>
+                    <li>HTTP Protocol</li>
+                    <li>Client-Server Architecture</li>
+                    <li>JSON</li>
+                    <li>Java script</li>
+                </ul>
+            </div>
+            <div class="skill-block">
+                <h3>Advanced / Bonus Skills</h3>
+                <ul>
+                    <li>Microservices Architecture</li>
+                    <li>Docker (Basics)</li>
+                    <li>AWS (Basics)</li>
+                    <li>REST API Design Principles</li>
+                    <li>Authentication & Authorization (JWT)</li>
+                    <li>Logging (Log4j / SLF4J)</li>
+                    <li>Unit Testing (JUnit)</li>
+                    <li>API Testing</li>
+                    <li>Performance Optimization Basics</li>
+                    <li>Debugging Skills</li>
+                </ul>
+            </div>
+            <div class="skill-block">
+                <h3>Tools & Technologies</h3>
+
+                <ul>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>Maven</li>
+                    <li>Gradle</li>
+                    <li>Postman</li>
+                    <li>Docker (Basics)</li>
+                    <li>IntelliJ IDEA</li>
+                    <li>Eclipse IDE</li>
+                    <li>VS Code</li>
+                    <li>MySQL Workbench</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+
+        <!-- TCS -->
+        <div class="experience-block">
+            <h3>Backend Developer Trainee</h3>
+            <p><strong>Tata Consultancy Services (TCS) | Hyderabad</strong></p>
+            <p><em>Mar 2025 – Present</em></p>
+
+            <ul>
+                <li>Designed and implemented 10+ RESTful APIs using Spring Boot, improving request handling efficiency
+                    by 30%.</li>
+                <li>Optimized 20+ SQL queries using joins and indexing, reducing database response time by 25%.</li>
+                <li>Developed and maintained backend modules using Spring Data JPA and Hibernate for efficient CRUD
+                    operations.</li>
+                <li>Performed API testing using Postman, reducing defects by 40% during integration and QA.</li>
+                <li>Debugged and resolved backend issues, improving application stability and uptime by 15%.</li>
+                <li>Worked in Agile Scrum teams and consistently delivered sprint tasks on time.</li>
+            </ul>
+        </div>
+
+        <!-- PHP Intern -->
+        <div class="experience-block">
+            <h3>PHP Intern</h3>
+            <p><strong>ITP Software India Limited</strong></p>
+            <p><em>Oct 2024 – Feb 2025</em></p>
+
+            <ul>
+                <li>Developed backend features using PHP and CodeIgniter (MVC), improving business workflows by 20%.
+                </li>
+                <li>Implemented secure authentication and database connectivity, reducing data access issues.</li>
+                <li>Built reusable backend components, reducing development time for future modules.</li>
+                <li>Used Git for version control and followed SDLC best practices.</li>
+            </ul>
+        </div>
+
+        <!-- Java Intern -->
+        <div class="experience-block">
+            <h3>Java Intern</h3>
+            <p><strong>Triarights Solutions LLP</strong></p>
+            <p><em>Jan 2024 – May 2024</em></p>
+
+            <ul>
+                <li>Developed backend features using Java, JDBC, and SQL for real-time applications.</li>
+                <li>Applied SDLC practices and maintained code using Git version control.</li>
+            </ul>
+        </div>
+
+    </section>
 
     <!-- //Projects -->
     <section id="projects">
-        <h2>Projects</h2>
+    <h2>Projects</h2>
 
-        <article>
-            <h3>Employee Leave Management System</h3>
-            <p>
-                Developed a backend system using Spring Boot to manage employee leave requests,
-                approvals, and balance tracking.
-            </p>
-        </article>
+    <!-- Project 1 -->
+    <div class="project-block">
+        <h3>E-Commerce Backend System</h3>
 
-        <article>
-            <h3>E-commerce Shopping Site</h3>
-            <p>
-                Built backend services to handle product management, user data, and order processing.
-            </p>
-        </article>
+        <p><strong>Tech Stack:</strong> Java, Spring Boot, MySQL</p>
 
-        <article>
-            <h3>Bank Management System</h3>
-            <p>
-                Created backend functionalities for account management and transactions using Java.
-            </p>
-        </article>
+        <ul>
+            <li>Designed and developed REST APIs for product, user, and order management.</li>
+            <li>Implemented business logic for handling order processing and data validation.</li>
+            <li>Integrated Spring Data JPA for efficient database operations and scalability.</li>
+            <li>Ensured clean architecture with proper separation of controller, service, and repository layers.</li>
+        </ul>
+    </div>
 
-    </section>
+    <!-- Project 2 -->
+    <div class="project-block">
+        <h3>Employee Leave Management System</h3>
 
-    <hr>
+        <p><strong>Tech Stack:</strong> Java, JDBC, MySQL</p>
+
+        <ul>
+            <li>Developed backend modules for leave application, approval workflow, and salary tracking.</li>
+            <li>Designed relational database schema for employee and leave data management.</li>
+            <li>Wrote optimized SQL queries for reporting and transaction handling.</li>
+            <li>Implemented core business logic to manage leave balance and approval flow.</li>
+        </ul>
+    </div>
+
+</section>
+
+<section id="resume">
+    <h2>Resume</h2>
+
+    <p>You can view or download my resume and cover letter below:</p>
+
+    <div class="resume-links">
+
+        <!-- View Resume -->
+        <a href="Anusha_java_dev_Resume.pdf" target="_blank">
+            👁️ View Resume
+        </a>
+
+        <!-- Download Resume -->
+        <a href="Anusha_java_dev_Resume.pdf"  target="_blank" download="Anusha_java_dev_Resume.pdf">
+            ⬇️ Download Resume
+        </a>
+
+       
+    </div>
+</section>
 
     <!-- //contacts -->
+
     <section id="contact">
-        <h2>Contact</h2>
+        <h2>Contact Me</h2>
 
-        <p>Email: your-email@example.com</p>
+        <form id="contact-form">
 
-        <p>
-            LinkedIn: 
-            <a href="https://www.linkedin.com/in/anushayepuri/" target="_blank">
-                Visit Profile
-            </a>
-        </p>
+            <!-- Name -->
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
 
-        <p>
-            GitHub: 
-            <a href="https://github.com/AnushaYepuri" target="_blank">
-                View Projects
-            </a>
-        </p>
+            <!-- Email -->
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <!-- Subject -->
+            <label for="subject">Subject</label><br>
+            <input type="text" id="subject" name="subject" placeholder="Enter subject"><br><br>
+
+            <!-- Message -->
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message..."
+                required></textarea><br><br>
+
+            <!-- Submit Button -->
+            <button type="submit">Send Message</button>
+            <p id="form-status"></p>
+        </form>
     </section>
 
-    <hr>
 
-   
+
+
     <footer>
         <p>© 2026 Anusha. All rights reserved.</p>
+        <p>
+            <i class="fas fa-envelope"></i>
+            anushayepuri500@gmail.com
+        </p>
+
+        <p>
+            <i class="fab fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/anushayepuri/" target="_blank">
+                LinkedIn
+            </a>
+        </p>
+
+        <p>
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/AnushaYepuri" target="_blank">
+                GitHub
+            </a>
+        </p>
     </footer>
 
-    
+
 </body>
+
 </html>
+<script src="portfolio.js"></script>
